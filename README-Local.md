@@ -1,10 +1,18 @@
-# Modified - Driver samples for Windows 11
-These drivers are taken from [Microsoft Windows Driver Sample](https://github.com/microsoft/Windows-driver-samples/tree/main) and modified for my use. Please refer to original git repository README for details.
+# Modified - Driver Samples for Windows 11
+
+These drivers are adapted from the official [Microsoft Windows Driver Samples](https://github.com/microsoft/Windows-driver-samples/tree/main) and have been modified for specific use cases. For detailed information, please refer to the README file in the original Git repository.
+
+---
 
 ## IOCTL Driver
-This driver is used to access PCI drice and access harware registers
-### Learnings and points to note
-* The code compiled with VS2022 Community edition
-* To test App and driver use Admin c$command prompt
-* To test from Visual Studio debug, start VS2022 in Admin mode
 
+The IOCTL driver is designed to access PCI devices and interact with hardware registers.
+
+### Key Learnings and Points to Note
+
+- **Code Compilation**: The driver code was successfully compiled using Visual Studio 2022 Community Edition.
+- **Testing Requirements**:
+  - To test the application and driver, use an **Administrator Command Prompt**.
+  - When debugging from Visual Studio, make sure to start **Visual Studio 2022 in Administrator mode**.
+
+---
